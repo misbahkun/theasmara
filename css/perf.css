@@ -1,0 +1,6 @@
+
+/* === Performance optimizations === */
+section{content-visibility:auto;contain-intrinsic-size:auto 800px}
+img{content-visibility:auto;contain-intrinsic-size:auto 400px;image-rendering:auto}
+html{scroll-behavior:smooth;overscroll-behavior-y:none}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
